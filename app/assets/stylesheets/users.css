@@ -1,92 +1,89 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 @media (min-width: 375px) {
-    .sign-up-container{
-        background :#3778c2;
-        
-        padding: 20px;
-        margin: 20px;
-        border-radius: 10px;
-        border: 1px #3778c2 solid;
-        color: black;
+  .sign-up-container {
+    background: #3778c2;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px #3778c2 solid;
+    color: black;
+  }
 
-    }
+  h2 {
+    color: black;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+  }
 
-    h2{
-        color: black;
-        opacity: 0.8;
-        margin-bottom: 20px;
-        font-size: 28px;
-        text-align: center;
-        margin-top: 10px;
-    }
+  a {
+    text-decoration: none;
+    color: white;
+    opacity: 60%;
+  }
 
-    a{
-        text-decoration: none;
-        color: white;
-        opacity: 60%;
-    }
+  .field > input {
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
 
-    .field>input{
-        margin-top:5px;
-        border: none;
-        border-radius: 5px;
-        padding: 5px;
-        margin-bottom: 5px;
-        width: 100%;
-    }
+  .actions > input {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: white;
+    color: #3778c2;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
 
-    .actions > input{
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border: none;
-        background-color: white;
-        color: #3778c2;
-        width: 100%;
-        font-weight: bold;
-        border-radius: 4px;
-        margin-top: 10px;
-        cursor: pointer;
-        font-size: 20px;
-        margin-bottom: 8px;
-    }
+  .field_with_errors > input {
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background-color: white;
+    color: #3778c2;
+    width: 100%;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
 
-    .field_with_errors>input{
-        padding: 5px;
-        padding-left: 10px;
-        padding-right: 10px;
-        border: none;
-        background-color: white;
-        color: #3778c2;
-        width: 100%;
-        font-weight: bold;
-        border-radius: 4px;
-        margin-top: 0;
-        cursor: pointer;
-        font-size: 20px;
-        margin-bottom: 10px;
-    }
+  .actions > input:focus {
+    outline: none;
+  }
 
-    .actions > input:focus{
-        outline: none;
+  *:focus {
+    outline: none;
+  }
 
-    }
-    *:focus{
-        outline: none;
-    }
-
-    .error-wrapper{
-        padding: 20px;
-        margin: 20px;
-    }
-    
+  .error-wrapper {
+    padding: 20px;
+    margin: 20px;
+  }
 }
