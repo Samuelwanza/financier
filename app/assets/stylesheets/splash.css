@@ -1,0 +1,14 @@
+.splash {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #3778c2;
+}
+
+.splash-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
