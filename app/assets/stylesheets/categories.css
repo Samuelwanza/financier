@@ -1,0 +1,131 @@
+@media (min-width: 375px) {
+  .category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    color: #434b54;
+  }
+
+  .category-wrapper {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+  }
+
+  .category-wrapper > a {
+    color: rgb(0, 0, 0);
+  }
+
+  .categories-navbar {
+    height: 15vh;
+    background: #3778c2;
+    color: white;
+  }
+
+  .categories-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    padding-top: 30px;
+    font-size: 18px;
+  }
+
+  .most {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 16px;
+    padding: 8px;
+  }
+
+  .most > p:nth-child(2) {
+    opacity: 50%;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card {
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+
+  .card-inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    width: 100%;
+  }
+
+  .category-card-created {
+    position: absolute;
+    bottom: 5px;
+    left: 90px;
+  }
+
+  .add-wrapper {
+    background: #5fb523;
+    padding: 10px;
+    margin-left: 20px;
+    text-align: center;
+    margin-right: 20px;
+  }
+
+  .new-category-links {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    font-size: 18px;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .form-item {
+    width: 100%;
+    color: gray;
+    margin-top: 10px;
+  }
+
+  .input-name {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-right: 0;
+    border-left: 0;
+  }
+
+  .label-name {
+    padding: 5px;
+  }
+
+  .submit-button {
+    background: #5fb523;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 20px;
+    border: none;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+  }
+
+  .new-category-modifier {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    font-size: 20px;
+    align-items: flex-end;
+    height: 100%;
+    width: 70%;
+  }
+
+  .new-category-modifier > a {
+    color: white;
+    opacity: 100%;
+  }
+}

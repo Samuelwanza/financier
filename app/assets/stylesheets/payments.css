@@ -1,0 +1,9 @@
+.payments {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  font-style: italic;
+  color: lightgrey;
+}

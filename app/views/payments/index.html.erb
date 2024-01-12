@@ -1,0 +1,37 @@
+<div class="categories-navbar">
+    <div class="new-category-modifier">
+        <%= link_to categories_path do %>
+            <i class="fa-solid fa-arrow-left"></i>
+        <%end%>
+        <h3> Transactions</h3>
+    </div>
+</div>
+
+<div class="category-container">
+    <div class="category-wrapper">
+        <div class="card">
+            <img src="<%= @category.icon %>" alt="<%= @category.name %> icon">
+
+            <div class="card-inner">
+                <p><%= @category.name %></p>
+                <h4>TOTAL PAYMENT: $<%= @total_amount %></h4>
+            </div>
+            <div class ="category-card-created">
+                <span>time</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<% @transactions.each do |transaction| %>
+  <div class="payments">
+    <p><%= transaction.payment.name %></p>
+    <p>Amount: $<%= transaction.payment.amount %></p>
+    <span><%= transaction.created_at.strftime("%Y-%m-%d %H:%M:%S") %></span>
+  </div>
+<% end %>
+<div class="add-wrapper">
+    <%= link_to "Add Transaction", new_category_payment_path(@category)%>
+</div>
+

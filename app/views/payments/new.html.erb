@@ -1,0 +1,23 @@
+
+<div class="categories-navbar">
+    <div class="new-category-modifier">
+        <%= link_to categories_path do %>
+            <i class="fa-solid fa-arrow-left"></i>
+        <%end%>
+        <h3> New Transaction</h3>
+    </div>
+</div>
+<div class="form-wrapper">
+  <%= form_with model: payment, url: category_payments_path(@category), method: :post, local: true, scope: :payment do |f| %>
+    <div class="form-item">
+      <%= f.label :name, class: "label-name" %><br>
+      <%= f.text_field :name, class: "input-name" %>
+    </div>
+    <div class="form-item">
+      <%= f.label :amount, class: "label-name" %><br>
+      <%= f.text_field :amount, class: "input-name" %>
+    </div>
+
+    <%= f.submit "Save", class: "submit-button" %>
+  <% end %>
+</div>
