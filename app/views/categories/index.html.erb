@@ -1,0 +1,36 @@
+<div class="categories-navbar">
+    <div class="categories-links">
+        <i class="fa-solid fa-bars"></i>
+        <h3>Categories</h3>
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="most">
+        <p>most recent</p>
+        <p>most ancient</p>
+    </div>
+</div>
+
+<div class="category-container">
+    <% @categories.each do |category| %>
+    <div class="category-wrapper">
+        <%= link_to category_payments_path(category) do %>
+        <div class="card">
+            <img src="<%= category.icon %>" alt="<%= category.name %> icon">
+
+            <div class="card-inner">
+                <p><%= category.name %></p>
+                <% total_amount = category.payment_categories.joins(:payment).sum('payments.amount') %>
+                <h3>$<%= total_amount %></h3>
+            </div>
+            <div class ="category-card-created">
+                <span>time</span>
+            </div>
+        </div>
+        
+        <% end %>
+    </div>
+    <% end %>
+</div>
+<div class="add-wrapper">
+    <%= link_to "Add Category", new_category_path %>
+</div>
