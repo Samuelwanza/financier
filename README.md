@@ -4,7 +4,7 @@
 <div align="center">
 
 
-  <h3><b>Food Recipe</b></h3>
+  <h3><b>Financier</b></h3>
 
 </div>
 
@@ -34,10 +34,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Food Recipe <a name="about-project"></a>
+# 📖 Financier <a name="about-project"></a>
 
 
-**Food Recipe** is a Rails application for managing a food recipes and accompanying ingredients.
+**Financier** is a Rails application for managing expenses and keeping track of transactions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,11 +71,10 @@
 ### Key Features <a name="key-features"></a>
 
 
-- **Display FOODS**
-- **CRUD for FOOD**
-- **Display Public & Private Recipes**
-- **CRUD for Recipes**
-- **General Shopping List**
+- **Display CATEGORIES**
+- **Add Categories**
+- **Display Transactions**
+- **Add Transactions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +116,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/Al-Amin-Khan-Shakil/food-recipe.git
+  git clone https://github.com/Samuelwanza/financier.git
 ```
 
 
@@ -156,14 +155,7 @@ To run tests, run the following command:
 ## 👥 Authors <a name="authors"></a>
 
 
-
-👤 **Al Amin Khan Shakil**
-
-- GitHub: [Al Amin Khan Shakil](https://github.com/Al-Amin-Khan-Shakil)
-- Twitter: [Al Amin Khan Shakil](https://twitter.com/AlAminKhan85004)
-- LinkedIn: [Al Amin Khan Shakil](https://www.linkedin.com/in/al-amin-khan-shakil/)
-
-👤**Al Amin Khan Shakil**
+👤**Samuel Wanza**
 
 - GitHub: [Samuel Wanza](https://github.com/Samuelwanza)
 - Twitter: [Samuel Wanza](https://twitter.com/samuelmunguti9)
@@ -178,8 +170,8 @@ To run tests, run the following command:
 
 
 - [ ] **CreateUserProfile**
-- [ ] **RecipeRecommendations**
-- [ ] **RecipeTutorials**
+- [ ] **BudgetRecommendations**
+- [ ] **BudgetTutorials**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,7 +181,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/Al-Amin-Khan-Shakil/food-recipe/issues).
+Feel free to check the [issues page](https://github.com/Samuelwanza/financier/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,7 +201,7 @@ If you like this project, please give it a star ⭐️
 
 
 
-I would like to thank Al Amin Khan Shakil that ensured we implemented this project within the give timelines and requirements.
+I would like to thank Samuel Wanza that ensured we implemented this project within the give timelines and requirements.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
