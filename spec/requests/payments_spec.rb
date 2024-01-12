@@ -4,11 +4,9 @@ RSpec.describe 'Payments', type: :request do
   before(:each) do
     @user = User.create!(id: 2, name: 'becky', email: 'becky@mail.com', password: 'abcxyz123', confirmed_at: Time.now)
     # rubocop:disable Layout/LineLength
-
     @category = Category.create(user_id: @user.id,
                                 icon: 'https://msn.engineering.asu.edu/wp-content/uploads/sites/17/2022/02/systems-engineering-phd-3x2-hero.jpg', name: 'Chicken')
     # rubocop:enable Layout/LineLength
-
     @payment = Payment.create(name: 'pliers', amount: 20, author: @user)
     @payment_category = PaymentCategory.create(payment: @payment, category: @category)
     sign_in @user
