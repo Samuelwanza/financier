@@ -37,7 +37,6 @@ RSpec.describe 'Payments', type: :request do
       expect(response).to render_template(:new)
     end
 
-
     it 'should include the placeholder' do
       get new_category_path(@category)
       expect(response.body).to include('New Transaction')

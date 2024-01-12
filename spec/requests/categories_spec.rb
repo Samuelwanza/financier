@@ -7,7 +7,6 @@ RSpec.describe 'Categories', type: :request do
     @category = Category.create(user_id: @user.id,
                                 icon: 'https://msn.engineering.asu.edu/wp-content/uploads/sites/17/2022/02/systems-engineering-phd-3x2-hero.jpg', name: 'Chicken')
     # rubocop:enable Layout/LineLength
-
     sign_in @user
   end
   describe 'GET /categories' do
@@ -35,7 +34,6 @@ RSpec.describe 'Categories', type: :request do
       get new_category_path
       expect(response).to render_template(:new)
     end
-
 
     it 'should include the placeholder' do
       get new_category_path
