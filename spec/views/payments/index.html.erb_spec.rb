@@ -15,7 +15,6 @@ RSpec.describe 'categories/index', type: :feature do
     @payment = @user.payments.create!(amount: 30, name: 'drum stick')
     @payment_category = PaymentCategory.create!(payment: @payment, category: @category1)
 
-
     visit new_user_session_path
     fill_in 'Email', with: @user.email
     fill_in 'Password', with: @user.password
