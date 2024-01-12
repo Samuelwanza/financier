@@ -225,7 +225,7 @@ I would like to thank Samuel Wanza that ensured we implemented this project with
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
