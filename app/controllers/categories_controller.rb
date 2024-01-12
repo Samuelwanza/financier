@@ -16,7 +16,7 @@ class CategoriesController < ApplicationController
     @category = current_user.categories.build(category_params)
 
     if @category.save
-      redirect_to categories_h, notipatce: 'Category created successfully.'
+      redirect_to categories_path, notice: 'Category created successfully.'
     else
       render :new, locals: { category: @category }
     end
