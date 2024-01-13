@@ -201,7 +201,7 @@ If you like this project, please give it a star ⭐️
 
 
 
-I would like to thank Samuel Wanza that ensured we implemented this project within the give timelines and requirements.
+I would like to thank Samuel Wanza that ensured we implemented this project within the give timelines and requirements. I would also commend Gregoire Vella fro Behance for the nice design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
