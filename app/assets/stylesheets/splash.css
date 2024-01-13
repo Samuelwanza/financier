@@ -1,14 +1,41 @@
 .splash {
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 100vh;
-  background: #3778c2;
+  background: lightgray;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+  text-decoration: dashed;
+}
+
+.splash-title {
+  margin-top: 40vh;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
 }
 
 .splash-links {
   display: flex;
-  gap: 20px;
-  margin-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+
+.splash-login {
+  background: #3778c2;
+  padding: 10px;
+  width: 100%;
+}
+
+.splash-sign {
+  padding: 10px;
+  width: 100%;
+  color: #434b54;
+}
+
+.splash-sign > a {
+  color: #434b54;
+  font-weight: bold;
 }

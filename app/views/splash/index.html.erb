@@ -1,7 +1,13 @@
 <div class="splash">
-    <h1>Financier</h1>
+    <div class ="splash-title">
+        <h1>Financier</h1>
+    </div>
     <div class="splash-links">
-        <%= link_to "Login", user_session_path %>
-        <%= link_to "Sign Up", new_user_registration_path %>
+        <div class="splash-login">
+            <%= link_to "Login", user_session_path %>
+        </div>
+        <div class ="splash-sign">
+            <%= link_to "Sign Up", new_user_registration_path %>
+        </div>
     </div>
 </div>

@@ -69,9 +69,10 @@
   .add-wrapper {
     background: #5fb523;
     padding: 10px;
-    margin-left: 20px;
     text-align: center;
-    margin-right: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
   }
 
   .new-category-links {
