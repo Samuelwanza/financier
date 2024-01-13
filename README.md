@@ -34,7 +34,7 @@
 
 # 📖 Financier <a name="about-project"></a>
 
-**Financier** is a Rails application for managing expenses and keeping track of transactions.
+**Financier** is a Rails application for managing expenses and keeping track of transactions. This allows them to save more
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -65,7 +65,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Display CATEGORIES**
+- **Display Categories**
 - **Add Categories**
 - **Display Transactions**
 - **Add Transactions**
