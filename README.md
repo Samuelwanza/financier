@@ -1,8 +1,6 @@
 <a name="readme-top"></a>
 
-
 <div align="center">
-
 
   <h3><b>Financier</b></h3>
 
@@ -36,14 +34,11 @@
 
 # 📖 Financier <a name="about-project"></a>
 
-
 **Financier** is a Rails application for managing expenses and keeping track of transactions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-
 
 <details>
   <summary>Client</summary>
@@ -70,7 +65,6 @@
 
 ### Key Features <a name="key-features"></a>
 
-
 - **Display CATEGORIES**
 - **Add Categories**
 - **Display Transactions**
@@ -80,11 +74,10 @@
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="live-demo"></a>git
 
-
-
-- Coming soon
+[LIVE LINK](https://financier-g2h3.onrender.com/)
+[PROJECT DEMO](https://www.loom.com/share/31df90ec2cc347a0bbf10a163b7b2f8e?sid=bade8771-7d53-4e4b-ac3d-80537403b674)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -92,14 +85,11 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
-
 
 ```sh
  Ruby
@@ -108,27 +98,22 @@ In order to run this project you need:
  Browser
 ```
 
-
 ### Setup
 
 Clone this repository to your desired folder:
-
 
 ```sh
   cd my-folder
   git clone https://github.com/Samuelwanza/financier.git
 ```
 
-
 ### Install
 
 Install this project with:
 
-
 ```sh
   bundle install
 ```
-
 
 ### Usage
 
@@ -146,14 +131,11 @@ To run tests, run the following command:
   rspec spec
 ```
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤**Samuel Wanza**
 
@@ -166,8 +148,6 @@ To run tests, run the following command:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
 
 - [ ] **CreateUserProfile**
 - [ ] **BudgetRecommendations**
@@ -189,8 +169,6 @@ Feel free to check the [issues page](https://github.com/Samuelwanza/financier/is
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-
 If you like this project, please give it a star ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -198,8 +176,6 @@ If you like this project, please give it a star ⭐️
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
 
 I would like to thank Samuel Wanza that ensured we implemented this project within the give timelines and requirements. I would also commend Gregoire Vella fro Behance for the nice design
 
@@ -209,15 +185,12 @@ I would like to thank Samuel Wanza that ensured we implemented this project with
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-
-
 - **Can I contribute to this project?**
 
   - Yes, you can. You can fork you modification on this project. If it gets approval then we will merge your changes.
 
 - **What knowledge Should I have to create a project like this?**
   - You should have basic RubyONRails Knowledge.
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -228,4 +201,3 @@ I would like to thank Samuel Wanza that ensured we implemented this project with
 This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
