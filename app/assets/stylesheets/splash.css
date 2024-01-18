@@ -1,6 +1,6 @@
 .splash {
   height: 100vh;
-  background: lightgray;
+  background: white;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -13,6 +13,11 @@
   justify-content: center;
   align-items: flex-start;
   width: 100%;
+  color: #434b54;
+}
+
+.splash-title > h1 {
+  font-style: normal;
 }
 
 .splash-links {
