@@ -77,7 +77,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>git
 
 [LIVE LINK](https://financier-g2h3.onrender.com/)
-[PROJECT DEMO](https://www.loom.com/share/31df90ec2cc347a0bbf10a163b7b2f8e?sid=bade8771-7d53-4e4b-ac3d-80537403b674)
+[PROJECT DEMO](https://www.loom.com/share/157f44ffa6034a91b29ccb41b7e0b5ef?sid=913cf0e2-1774-4f06-b03e-9fba1cafa1a3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
